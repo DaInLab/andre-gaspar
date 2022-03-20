@@ -18,7 +18,7 @@ moda        <- moda(worksheet$'Casas')
 headerCalc <- c ("Media", "Mediana", "Moda", "Variancia", "Desvio Padrao")
 calc <- c (mean, median, moda, varance, sd)
 
-png(filename = "../graficos/exercicio_2.png", width = 1000, height = 1000)
+png(filename = "./graficos/exercicio_2.png", width = 1000, height = 1000)
 barplot(
   calc, 
   main="Exercicio 2", 

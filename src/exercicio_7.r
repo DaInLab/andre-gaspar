@@ -5,7 +5,7 @@ data <- read_excel("./dados/exercicio7.xls")
 fields <- data$'Áreas'
 attendance <- data$'Atendimento'
 
-png(filename = "../graficos/exercicio7.png", width = 1000, height = 1000)
+png(filename = "./graficos/exercicio7.png", width = 1000, height = 1000)
 
 barplot(
   attendance, 

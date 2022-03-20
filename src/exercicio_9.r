@@ -4,7 +4,7 @@ library(dplyr)
 data <- read_excel("./dados/exercicio9.xls")
 sals <- data$'Salários'
 
-png(filename = "../graficos/exercicio9.png", width = 1000, height = 1000)
+png(filename = "./graficos/exercicio9.png", width = 1000, height = 1000)
 
 hist(sals, main="Exercício 9", xlab="Salarios", ylab="Frequencia", col=rainbow(5))
 

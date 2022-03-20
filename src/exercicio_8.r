@@ -7,7 +7,7 @@ matrix <- data.matrix(dataW)
 vector <- as.vector(matrix)
 vector
 
-png(filename = "../graficos/exercicio8.png", width = 1000, height = 1000)
+png(filename = "./graficos/exercicio8.png", width = 1000, height = 1000)
 
 hist(vector, main="Exercício 8", xlab="Alturas", ylab="Frequencia", col=rainbow(7))
 dev.off()

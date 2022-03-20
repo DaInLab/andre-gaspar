@@ -21,7 +21,7 @@ moda    <- calc(numChild)
 names <- c("Mediana", "Moda")
 calcs <- c(mediana, moda)
 
-png(filename = "../graficos/exercicio3.png", width = 1000, height = 1000)
+png(filename = "./graficos/exercicio3.png", width = 1000, height = 1000)
 barplot(calcs, 
         main="Exercício 3", 
         xlab="Cálculos", 
